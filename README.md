@@ -32,7 +32,7 @@ ISW_4K1_G1_2026
 | material_clase | Toma de Notas/Apuntes | `apunte-<ddmm>-<autor>.<ext>` | `material_clase/apuntes/` | .md, .pdf |
 | producción_propia | Resumen | `resumen-u<numero_unidad>-<autor>.<ext>` | `produccion_propia/resumenes/` | .pdf |
 | material_catedra | Bibliografía | `<nombre-archivo>.pdf` | `material_catedra/bibliografia/` | .pdf, .docx |
-| material_catedra | Templates | `template-<tema>-<autor>.<ext>` | `material_catedra/templates/` | .pdf |
+| material_catedra | Templates | `template-<tema>-<autor>.<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
 | material_catedra | Diapositiva de Clase | `diapositiva-<numero>-<tema>.pdf` | `material_catedra/presentaciones_de_clase/` | .pdf |
 | material_catedra | Consigna TP Evaluable | `consigna-tp-<numero>.pdf` | `material_catedra/consignas_tps/tps_evaluables/` | .pdf |
 | producción_propia | Entrega TP Evaluable | `entrega-tp-<numero>-<titulo_tp>.<ext>` | `produccion_propia/trabajos_practicos/tps_evaluables/` | .pdf, .png |
