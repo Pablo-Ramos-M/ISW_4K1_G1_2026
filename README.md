@@ -44,7 +44,7 @@ ISW_4K1_G1_2026
 ## Reglas de Nombrado
 
 - **Carpetas:** Absolutamente todas las carpetas utilizarán el formato `snake_case` (ej. `trabajos_practicos`). No se admiten acentos, eñes, ni mayúsculas.
-- **Archivos:** Absolutamente todos los archivos utilizarán el formato `kebab-case` (ej. `consigna-tp-01.pdf`). No se utilizará el versionado en el nombre del archivo (nunca `tp-01-v2.pdf` ni `tp-01-final.pdf`); el control de versiones lo delega exclusivamente el SCM (Git).
+- **Archivos:** Absolutamente todos los archivos utilizarán el formato `kebab-case` (ej. `consigna-tp-01.pdf`). No se utilizará el versionado en el nombre del archivo (nunca `tp-01-v2.pdf` ni `tp-01-final.pdf`); el control de versiones lo delega exclusivamente el SCM (Git). Los títulos de presentaciones, tps, etc serán definidos por el formato snake_case.
 - **Tags (Líneas Base):** Se utilizará el formato `lb-<tipo>-<identificador>`. El prefijo `lb-` indicará siempre que el tag representa una Línea Base. Ejemplos: `lb-tp-01` (para el TP Evaluable 1), `lb-ti-01` (para el Trabajo de Investigación 1), `lb-parcial-01` (para los apuntes y resúmenes consolidados del primer parcial).
 
 ## Criterio de Línea Base
