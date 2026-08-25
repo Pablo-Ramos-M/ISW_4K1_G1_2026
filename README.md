@@ -28,16 +28,16 @@ ISW_4K1_G1_2026
 
 | Tipo de Ítem | Ítem de Configuración | Regla de Nombrado | Ubicación Física | Formatos |
 |---|---|---|---|---|
-| producción_propia | Ejercicios | `ejercicio-<tema>-<autor>.<ext>` | `produccion_propia/ejercicios/` | .pdf |
+| producción_propia | Ejercicios | `ejercicio-<titulo_tema>-<autor>.<ext>` | `produccion_propia/ejercicios/` | .pdf |
 | material_clase | Toma de Notas/Apuntes | `apunte-<ddmm>-<autor>.<ext>` | `material_clase/apuntes/` | .md, .pdf |
 | producción_propia | Resumen | `resumen-u<numero_unidad>-<autor>.<ext>` | `produccion_propia/resumenes/` | .pdf |
 | material_catedra | Bibliografía | `<nombre-archivo>.pdf` | `material_catedra/bibliografia/` | .pdf, .docx |
-| material_catedra | Templates | `template-<tema>-<autor>.<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
-| material_catedra | Diapositiva de Clase | `diapositiva-<numero>-<tema>.pdf` | `material_catedra/presentaciones_de_clase/` | .pdf |
+| material_catedra | Templates | `template-<titulo_tema>-<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
+| material_catedra | Diapositiva de Clase | `diapositiva-<numero>-<titulo_tema>.pdf` | `material_catedra/presentaciones_de_clase/` | .pdf |
 | material_catedra | Consigna TP Evaluable | `consigna-tp-<numero>.pdf` | `material_catedra/consignas_tps/tps_evaluables/` | .pdf |
 | producción_propia | Entrega TP Evaluable | `entrega-tp-<numero>-<titulo_tp>.<ext>` | `produccion_propia/trabajos_practicos/tps_evaluables/` | .pdf, .png |
-| material_catedra | Consigna Trabajo de Investigación | `consigna-ti-<numero>.pdf` | `material_catedra/consignas_tps/trabajos_investigacion/` | .pdf |
-| producción_propia | Entrega Trabajo de Investigación | `entrega-ti-<numero>-<titulo_ti>.<ext>` | `produccion_propia/trabajos_practicos/trabajos_investigacion/` | .pdf, .png |
+| material_catedra | Consigna Trabajo de Investigación | `consigna-ti-<numero>-<titulo_ti>.pdf` | `material_catedra/consignas_tps/trabajos_investigacion/` | .pdf |
+| producción_propia | Entrega Trabajo de Investigación | `entrega-ti-<numero>.<ext>` | `produccion_propia/trabajos_practicos/trabajos_investigacion/` | .pdf, .png |
 | material_catedra | Cronograma | `cronograma-isw.xlsx` | `material_catedra/planificacion/` | .xlsx |
 | material_catedra | Programa | `programa-isw.pdf` | `material_catedra/planificacion/` | .pdf |
 
