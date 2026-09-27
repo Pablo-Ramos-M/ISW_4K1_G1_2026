@@ -30,7 +30,7 @@ ISW_4K1_G1_2026
 |---|---|---|---|---|
 | producción_propia | Ejercicios | `ejercicio-<Titulo_Tema>-<autor>.<ext>` | `produccion_propia/ejercicios/` | .pdf |
 | material_clase | Toma de Notas/Apuntes | `apunte-<ddmm>-<ApellidoAutor_NombreAutor>.<ext>` | `material_clase/apuntes/` | .md, .pdf |
-| producción_propia | Resumen | `resumen-u<numero_unidad>-<ApellidoAutor_NombreAutor>.<ext>` | `produccion_propia/resumenes/` | .pdf |
+| producción_propia | Resumen | `resumen-u<numero_unidad>-<tema>-<ApellidoAutor_NombreAutor>.<ext>` | `produccion_propia/resumenes/` | .pdf |
 | material_catedra | Bibliografía | `<Nombre-Archivo>.pdf` | `material_catedra/bibliografia/` | .pdf, .docx |
 | material_catedra | Templates | `template-<Titulo_Tema>-<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
 | material_catedra | Diapositiva de Clase | `diapositiva-<numero>-<Titulo_Tema>.pdf` | `material_catedra/presentaciones_de_clase/` | .pdf |
