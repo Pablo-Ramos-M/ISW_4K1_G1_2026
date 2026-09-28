@@ -10,6 +10,7 @@ ISW_4K1_G1_2026
 │       ├── bibliografia
 │       ├── consignas_tps
 │       │       ├── tps_evaluables
+│       │       ├── tps_no_evaluables
 │       │       └── trabajos_investigacion
 │       ├── templates
 │       └── presentaciones_de_clase
@@ -21,6 +22,7 @@ ISW_4K1_G1_2026
         ├── ejercicios
         └── trabajos_practicos
                 ├── tps_evaluables
+                ├── tps_no_evaluables
                 └── trabajos_investigacion
 ```
 
@@ -35,11 +37,18 @@ ISW_4K1_G1_2026
 | material_catedra | Templates | `template-<Titulo_Tema>-<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
 | material_catedra | Diapositiva de Clase | `diapositiva-<numero>-<Titulo_Tema>.pdf` | `material_catedra/presentaciones_de_clase/` | .pdf |
 | material_catedra | Consigna TP Evaluable | `consigna-tp-<numero>.pdf` | `material_catedra/consignas_tps/tps_evaluables/` | .pdf |
-| producción_propia | Entrega TP Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.<ext>` | `produccion_propia/trabajos_practicos/tps_evaluables/` | .pdf, .png |
+| producción_propia | Entrega TP Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.<ext>` | `produccion_propia/trabajos_practicos/tps_evaluables/` | .pdf, .zip |
+| material_catedra | Consigna TP No Evaluable | `consigna-tp-<numero>.pdf` | `material_catedra/consignas_tps/tps_no_evaluables/` | .pdf |
+| producción_propia | Entrega TP No Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.pdf` | `produccion_propia/trabajos_practicos/tps_no_evaluables/` | .pdf |
 | material_catedra | Consigna Trabajo de Investigación | `consigna-ti-<numero>-<Titulo_Ti>.pdf` | `material_catedra/consignas_tps/trabajos_investigacion/` | .pdf |
 | producción_propia | Entrega Trabajo de Investigación | `entrega-ti-<numero>.<ext>` | `produccion_propia/trabajos_practicos/trabajos_investigacion/` | .pdf, .png |
 | material_catedra | Cronograma | `cronograma-isw.xlsx` | `material_catedra/planificacion/` | .xlsx |
 | material_catedra | Programa | `programa-isw.pdf` | `material_catedra/planificacion/` | .pdf |
+
+## Aclaraciones sobre Entregas
+
+> **TP06:** Además del `.pdf`, se debe subir el código fuente comprimido en un archivo `.zip`.
+
 
 ## Reglas de Nombrado
 
@@ -49,18 +58,14 @@ ISW_4K1_G1_2026
 
 ## Criterio de Línea Base
 
-En nuestro proyecto, definimos el establecimiento de una nueva Línea Base como un hito formal de estabilización del repositorio. Esto ocurrirá ante los siguientes eventos:
+Una Línea Base se establece ante toda instancia de evaluación formal que haya recibido devolución con nota por parte de la cátedra, una vez que los ICs involucrados cumplan los siguientes criterios:
 
-- **Entregas Evaluables:** Tras la devolución y corrección de un Trabajo Práctico Evaluable o de Investigación. Se considera consolidada una entrega cuando las correcciones derivadas de la devolución docente han sido incorporadas y el documento se encuentra en estado definitivo.
-- **Hitos Académicos:** Luego de cada evaluación parcial, podrá establecerse una Línea Base, siempre que los ICs correspondientes (resúmenes, apuntes) hayan cumplido previamente los criterios de revisión y no haya trabajo en progreso. Esto asegura que represente un estado estable y controlado del material de estudio, y no solo la ocurrencia de una fecha.
+1. Revisado y aprobado por al menos un integrante distinto al autor (Peer Review).
+2. Completo y en versión definitiva, con correcciones incorporadas y sin marcas de borrador.
+3. Respeta el formato y la ubicación definidos en la matriz de ICs.
+4. No hay trabajo en progreso sobre ninguno de los ICs incluidos.
 
 Una Línea Base no implica modificar los nombres de los archivos. En su lugar, se materializa técnicamente en el repositorio mediante el uso de **Git Tags anotados**.
-
-Un ítem de configuración se considera listo para integrar la Línea Base cuando:
-
-1. Ha sido revisado y aprobado por al menos un integrante del grupo distinto al autor (Peer Review).
-2. Está completo y en su versión definitiva, sin marcas de borrador.
-3. Respeta estrictamente el formato y la ubicación definidos en la matriz de ICs.
 
 ## Glosario
 
