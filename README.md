@@ -6,12 +6,13 @@
 ISW_4K1_G1_2026
 ├── README.md
 ├── material_catedra
-│       ├── planificacion
 │       ├── bibliografia
+│       ├── clases_grabadas
 │       ├── consignas_tps
 │       │       ├── tps_evaluables
 │       │       ├── tps_no_evaluables
 │       │       └── trabajos_investigacion
+│       ├── planificacion
 │       ├── templates
 │       └── presentaciones_de_clase
 ├── material_clase
