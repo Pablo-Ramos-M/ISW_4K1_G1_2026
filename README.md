@@ -41,7 +41,7 @@ ISW_4K1_G1_2026
 | producción_propia | Entrega TP Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.<ext>` | `produccion_propia/trabajos_practicos/tps_evaluables/` | .pdf, .zip |
 | material_catedra | Consigna TP No Evaluable | `consigna-tp-<numero>.pdf` | `material_catedra/consignas_tps/tps_no_evaluables/` | .pdf |
 | producción_propia | Entrega TP No Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.pdf` | `produccion_propia/trabajos_practicos/tps_no_evaluables/` | .pdf |
-| material_catedra | Consigna Trabajo de Investigación | `consigna-ti-<numero>-<Titulo_Ti>.pdf` | `material_catedra/consignas_tps/trabajos_investigacion/` | .pdf |
+| material_catedra | Consigna Trabajo de Investigación | `consignas-ti.pdf` | `material_catedra/consignas_tps/trabajos_investigacion/` | .pdf |
 | producción_propia | Entrega Trabajo de Investigación | `entrega-ti-<numero>.<ext>` | `produccion_propia/trabajos_practicos/trabajos_investigacion/` | .pdf, .png |
 | material_catedra | Cronograma | `cronograma-isw.xlsx` | `material_catedra/planificacion/` | .xlsx |
 | material_catedra | Programa | `programa-isw.pdf` | `material_catedra/planificacion/` | .pdf |
