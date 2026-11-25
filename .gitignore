@@ -10,3 +10,7 @@ Thumbs.db
 # Configuración de IDEs
 .vscode/
 .idea/
+
+# Documentos de trabajo local
+plan_de_consistencia.md
+observaciones.md
