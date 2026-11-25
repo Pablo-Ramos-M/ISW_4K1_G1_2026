@@ -59,7 +59,7 @@ ISW_4K1_G1_2026
 - **Carpetas:** Absolutamente todas las carpetas utilizarán el formato `snake_case` (ej. `trabajos_practicos`). No se admiten acentos, eñes, ni mayúsculas.
 - **Archivos:** Cada nombre se compone de partes separadas por guion (`-`), según la regla de su IC en la matriz. Dentro de cada parte las palabras se unen con guion bajo (`_`); nunca se usan espacios ni guiones dentro de una parte. No se admiten acentos ni eñes, y la extensión va en minúscula.
   - Los prefijos fijos (`resumen`, `apunte`, `entrega`, `tp`, `ti`, `consigna`, `diapositiva`, `template`, `ejercicio`, etc.) van en minúscula.
-  - Los títulos (`<Titulo_Tema>`, `<Titulo_Tp>`) van en Ada_Case: cada palabra con inicial mayúscula; los conectores (`de`, `del`, `la`, `el`, `los`, `las`, `y`, `a`, `en`, `con`, `para`) en minúscula; las siglas en mayúscula (`SCM`, `TDD`, `PPQA`, `MVP`, `GPS`, `SW`); los nombres propios conservan su escritura (`EcoHarmony`). Ej.: `Gestion_de_Productos`, `Body_Painting`.
+  - Los títulos (`<Titulo_Tema>`, `<Titulo_Tp>`) van en Ada_Case: cada palabra con inicial mayúscula; los conectores (`de`, `del`, `la`, `el`, `los`, `las`, `y`, `a`, `en`, `con`, `para`) en minúscula; las siglas en mayúscula (`SCM`, `TDD`, `PPQA`, `MVP`, `GPS`, `SW`, `NBA`); los nombres propios conservan su escritura (`EcoHarmony`). Ej.: `Gestion_de_Productos`, `Body_Painting`.
   - El autor va como `<ApellidoAutor_NombreAutor>` (ej. `Colombo_Nicolas`). Los apellidos compuestos se escriben juntos (ej. `GayBrunori_Nicolas`).
   - Las demás variables (`<numero>`, `<numero_unidad>`, `<ddmm>`, `<instancia>`, `<descripcion>`) siguen el formato indicado en el Glosario.
   - Única excepción a la regla de partes: la bibliografía usa `<nombre-archivo>` en minúscula separado por guiones.
