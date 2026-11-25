@@ -35,6 +35,7 @@ ISW_4K1_G1_2026
 | material_clase | Toma de Notas/Apuntes | `apunte-<ddmm>-<ApellidoAutor_NombreAutor>.<ext>` | `material_clase/apuntes/` | .md, .pdf |
 | material_clase | Ejercicio en Clase | `ejercicio-clase-<ddmm>.pdf` | `material_clase/ejercicios_en_clase/` | .pdf |
 | producción_propia | Resumen | `resumen-u<numero_unidad>-<Titulo_Tema>-<ApellidoAutor_NombreAutor>.<ext>` | `produccion_propia/resumenes/` | .pdf |
+| producción_propia | Resumen Integrador | `resumen-<instancia>-<ApellidoAutor_NombreAutor>.pdf` | `produccion_propia/resumenes/` | .pdf |
 | material_catedra | Bibliografía | `<nombre-archivo>.pdf` | `material_catedra/bibliografia/` | .pdf |
 | material_catedra | Templates | `template-<Titulo_Tema>.<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
 | material_catedra | Diapositiva de Clase | `diapositiva-<numero>-<Titulo_Tema>.pdf` | `material_catedra/presentaciones_de_clase/` | .pdf |
@@ -84,6 +85,7 @@ Una Línea Base no implica modificar los nombres de los archivos. En su lugar, s
 | `<ApellidoAutor_NombreAutor>` | Apellido y nombre del autor unidos por `_`, cada uno con inicial mayúscula. Los apellidos compuestos van juntos (ej. `Colombo_Nicolas`, `GayBrunori_Nicolas`). Si el documento es grupal se usa `Grupo_1`. |
 | `<ext>` | Extensión del archivo explícitamente permitida en la tabla de ICs (ej. `pdf`, `md`). |
 | `<ddmm>` | Fecha de la clase o nota, expresada en 4 dígitos numéricos (ej. `2408` para el 24 de agosto). |
+| `<instancia>` | Evaluación que abarca un resumen de varias unidades, en minúscula. Valores permitidos: `parcial_01`, `parcial_02` o `final`. Los recuperatorios usan la instancia del parcial que recuperan. |
 | `<numero_unidad>` | Número de la unidad temática con dos dígitos (ej. `01`, `04`). |
 | `<numero>` | Identificador numérico correlativo con un cero a la izquierda para mantener el orden alfabético en el explorador (ej. `01`, `02`, `03`). En diapositivas es el número de la clase; varias diapositivas de una misma clase pueden compartirlo. |
 | `<Titulo_Tp>` | Nombre del trabajo práctico, en Ada_Case. |
