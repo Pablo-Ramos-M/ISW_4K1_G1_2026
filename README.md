@@ -27,35 +27,44 @@ ISW_4K1_G1_2026
                 └── trabajos_investigacion
 ```
 
-## Ítems de Configuración
+## Matriz de Ítems de Configuración
 
 | Tipo de Ítem | Ítem de Configuración | Regla de Nombrado | Ubicación Física | Formatos |
 |---|---|---|---|---|
-| producción_propia | Ejercicios | `ejercicio-<Titulo_Tema>-<autor>.<ext>` | `produccion_propia/ejercicios/` | .pdf |
-| material_clase | Toma de Notas/Apuntes | `apunte-<ddmm>-<ApellidoAutor_NombreAutor>.<ext>` | `material_clase/apuntes/` | .md, .pdf |
-| producción_propia | Resumen | `resumen-u<numero_unidad>-<tema>-<ApellidoAutor_NombreAutor>.<ext>` | `produccion_propia/resumenes/` | .pdf |
-| material_catedra | Bibliografía | `<Nombre-Archivo>.pdf` | `material_catedra/bibliografia/` | .pdf, .docx |
-| material_catedra | Templates | `template-<Titulo_Tema>-<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
+| produccion_propia | Ejercicio | `ejercicio-<Titulo_Tema>-<ApellidoAutor_NombreAutor>.pdf` | `produccion_propia/ejercicios/` | .pdf |
+| material_clase | Apunte (Toma de Notas) | `apunte-<ddmm>-<ApellidoAutor_NombreAutor>.<ext>` | `material_clase/apuntes/` | .md, .pdf |
+| material_clase | Ejercicio en Clase | `ejercicio-clase-<ddmm>.pdf` | `material_clase/ejercicios_en_clase/` | .pdf |
+| produccion_propia | Resumen | `resumen-u<numero_unidad>-<Titulo_Tema>-<ApellidoAutor_NombreAutor>.pdf` | `produccion_propia/resumenes/` | .pdf |
+| produccion_propia | Resumen Integrador | `resumen-<instancia>-<ApellidoAutor_NombreAutor>.pdf` | `produccion_propia/resumenes/` | .pdf |
+| material_catedra | Bibliografía | `<nombre-archivo>.pdf` | `material_catedra/bibliografia/` | .pdf |
+| material_catedra | Template | `template-<Titulo_Tema>.<ext>` | `material_catedra/templates/` | .pdf, .docx, .xlsx |
 | material_catedra | Diapositiva de Clase | `diapositiva-<numero>-<Titulo_Tema>.pdf` | `material_catedra/presentaciones_de_clase/` | .pdf |
 | material_catedra | Consigna TP Evaluable | `consigna-tp-<numero>.pdf` | `material_catedra/consignas_tps/tps_evaluables/` | .pdf |
-| producción_propia | Entrega TP Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.<ext>` | `produccion_propia/trabajos_practicos/tps_evaluables/` | .pdf, .zip |
+| produccion_propia | Entrega TP Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.<ext>` | `produccion_propia/trabajos_practicos/tps_evaluables/` | .pdf, .zip |
 | material_catedra | Consigna TP No Evaluable | `consigna-tp-<numero>.pdf` | `material_catedra/consignas_tps/tps_no_evaluables/` | .pdf |
-| producción_propia | Entrega TP No Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.pdf` | `produccion_propia/trabajos_practicos/tps_no_evaluables/` | .pdf |
-| material_catedra | Consigna Trabajo de Investigación | `consignas-ti.pdf` | `material_catedra/consignas_tps/trabajos_investigacion/` | .pdf |
-| producción_propia | Entrega Trabajo de Investigación | `entrega-ti-<numero>.<ext>` | `produccion_propia/trabajos_practicos/trabajos_investigacion/` | .pdf |
+| produccion_propia | Entrega TP No Evaluable | `entrega-tp-<numero>-<Titulo_Tp>.pdf` | `produccion_propia/trabajos_practicos/tps_no_evaluables/` | .pdf |
+| material_catedra | Consigna Trabajo de Investigación | `consigna-ti.pdf` | `material_catedra/consignas_tps/trabajos_investigacion/` | .pdf |
+| produccion_propia | Entrega Trabajo de Investigación | `entrega-ti-<numero>.pdf` | `produccion_propia/trabajos_practicos/trabajos_investigacion/` | .pdf |
+| produccion_propia | Speech Trabajo de Investigación | `speech-ti-<numero>-<ApellidoAutor_NombreAutor>.pdf` | `produccion_propia/trabajos_practicos/trabajos_investigacion/` | .pdf |
 | material_catedra | Cronograma | `cronograma-isw.xlsx` | `material_catedra/planificacion/` | .xlsx |
 | material_catedra | Programa | `programa-isw.pdf` | `material_catedra/planificacion/` | .pdf |
+| material_catedra | Clase Grabada | `clases-grabadas-<descripcion>.<ext>` | `material_catedra/clases_grabadas/` | .pdf, .xlsx |
 
 ## Aclaraciones sobre Entregas
 
-> **TP06:** Además del `.pdf`, se debe subir el código fuente comprimido en un archivo `.zip`.
-
+> **TP 06:** Además del `.pdf`, se debe subir el código fuente comprimido en un `.zip` con el mismo nombre (`entrega-tp-06-<Titulo_Tp>.zip`).
 
 ## Reglas de Nombrado
 
 - **Carpetas:** Absolutamente todas las carpetas utilizarán el formato `snake_case` (ej. `trabajos_practicos`). No se admiten acentos, eñes, ni mayúsculas.
-- **Archivos:** Absolutamente todos los archivos utilizarán el formato `kebab-case` (ej. `consigna-tp-01.pdf`). No se utilizará el versionado en el nombre del archivo (nunca `tp-01-v2.pdf` ni `tp-01-final.pdf`); el control de versiones lo delega exclusivamente el SCM (Git). Los títulos de presentaciones, tps, etc serán definidos por el formato Pascal Snake Case o también conocido como Ada_Case.
-- **Tags (Líneas Base):** Se utilizará el formato `lb-<tipo>-<identificador>`. El prefijo `lb-` indicará siempre que el tag representa una Línea Base. Ejemplos: `lb-tp-01` (para el TP Evaluable 1), `lb-ti-01` (para el Trabajo de Investigación 1), `lb-parcial-01` (para los apuntes y resúmenes consolidados del primer parcial).
+- **Archivos:** Cada nombre se compone de partes separadas por guion (`-`), según la regla de su IC en la matriz. Dentro de cada parte las palabras se unen con guion bajo (`_`); nunca se usan espacios ni guiones dentro de una parte. No se admiten acentos ni eñes, y la extensión va en minúscula.
+  - Los prefijos fijos (`resumen`, `apunte`, `entrega`, `tp`, `ti`, `consigna`, `diapositiva`, `template`, `ejercicio`, etc.) van en minúscula.
+  - Los títulos (`<Titulo_Tema>`, `<Titulo_Tp>`) van en Ada_Case: cada palabra con inicial mayúscula; los conectores (`de`, `del`, `la`, `el`, `los`, `las`, `y`, `a`, `en`, `con`, `para`) en minúscula; las siglas en mayúscula (`SCM`, `TDD`, `PPQA`, `MVP`, `GPS`, `SW`, `NBA`); los nombres propios conservan su escritura (`EcoHarmony`). Ej.: `Gestion_de_Productos`, `Body_Painting`.
+  - El autor va como `<ApellidoAutor_NombreAutor>` (ej. `Colombo_Nicolas`). Los apellidos compuestos se escriben juntos (ej. `GayBrunori_Nicolas`).
+  - Las demás variables (`<numero>`, `<numero_unidad>`, `<ddmm>`, `<instancia>`, `<descripcion>`) siguen el formato indicado en el Glosario.
+  - Única excepción a la regla de partes: la bibliografía usa `<nombre-archivo>` en minúscula separado por guiones.
+  - No se utilizará versionado en el nombre del archivo (nunca `entrega-tp-01-v2.pdf` ni `entrega-tp-01-final.pdf`); el control de versiones se delega exclusivamente en el SCM (Git).
+- **Tags (Líneas Base):** Se utilizará el formato `lb-<tipo>-<identificador>`, siempre en minúscula. El prefijo `lb-` indicará siempre que el tag representa una Línea Base. Ejemplos: `lb-tp-01` (para el TP Evaluable 1), `lb-ti-01` (para el Trabajo de Investigación 1), `lb-parcial-01` (para los apuntes y resúmenes consolidados del primer parcial).
 
 ## Criterio de Línea Base
 
@@ -72,16 +81,18 @@ Una Línea Base no implica modificar los nombres de los archivos. En su lugar, s
 
 | Variable | Descripción |
 |---|---|
-| `<tema>` | Palabra clave descriptiva del contenido en minúsculas y sin espacios (ej. `requerimientos`, `patrones`, `scrum`). |
-| `<ApellidoAutor_NombreAutor>` | Primer apellido del autor en con inicial en mayúsculas (ej. Pérez) seguido del nombre del autor con la inicial en mayúsculas. Si el documento es grupal, se omitirá esta variable o se usará `grupo1`. |
-| `<ext>` | Extensión del archivo explícitamente permitida en la tabla de ICs (ej. `pdf`, `md`). |
+| `<Titulo_Tema>` | Nombre descriptivo del contenido (tema de la diapositiva, resumen o template, o nombre del ejercicio), en Ada_Case según las Reglas de Nombrado (ej. `Estimaciones_Agiles`, `Body_Painting`). |
+| `<ApellidoAutor_NombreAutor>` | Apellido y nombre del autor unidos por `_`, cada uno con inicial mayúscula. Los apellidos compuestos van juntos (ej. `Colombo_Nicolas`, `GayBrunori_Nicolas`). Si el documento es grupal se usa `Grupo_1`. |
+| `<ext>` | Extensión del archivo, en minúscula, elegida entre los formatos permitidos para ese IC en la matriz (ej. `pdf`, `md`). Solo se usa en ICs que admiten más de un formato; si admite uno solo, la extensión va fija en la regla. |
 | `<ddmm>` | Fecha de la clase o nota, expresada en 4 dígitos numéricos (ej. `2408` para el 24 de agosto). |
+| `<instancia>` | Evaluación que cubre un Resumen Integrador (varias unidades), en minúscula. Valores permitidos: `parcial_01`, `parcial_02` o `final`. Los recuperatorios usan la instancia del parcial que recuperan. |
 | `<numero_unidad>` | Número de la unidad temática con dos dígitos (ej. `01`, `04`). |
-| `<numero>` | Identificador numérico correlativo con un cero a la izquierda para mantener el orden alfabético en el explorador (ej. `01`, `02`, `03`). |
-| `<Titulo_Tp/Ti>` | Nombre del trabajo práctico/de investigación a entregar. |
-| `<Nombre-Archivo>` | Nombre original del archivo provisto por la cátedra, con las iniciales en mayúsculas y separado por guiones (ej. `Sommerville-Cap-4`). |
+| `<numero>` | Identificador numérico correlativo de dos dígitos, con cero a la izquierda, para mantener el orden alfabético en el explorador (ej. `01`, `02`, `10`). En TPs es el número de TP asignado por la cátedra; en TIs, el número de TI. En diapositivas es el número de la clase; varias diapositivas de una misma clase pueden compartirlo. |
+| `<Titulo_Tp>` | Nombre del trabajo práctico, en Ada_Case. |
+| `<nombre-archivo>` | Nombre original del archivo provisto por la cátedra, pasado a minúscula y con las palabras separadas por guiones (ej. `no-silver-bullets`). |
+| `<descripcion>` | Texto breve en minúscula que distingue el archivo; si tiene varias palabras se unen con `_` (ej. `2021`, `4k1`). |
 | `<tipo>` | Clasificación del hito que da origen a la Línea Base, siempre en minúsculas. Valores permitidos: `tp` (Trabajo Práctico Evaluable), `ti` (Trabajo de Investigación), o `parcial` (Evaluación Parcial). |
-| `<identificador>` | Número o texto breve que identifica unívocamente al hito dentro de su tipo. Para TPs y TIs debe coincidir con el `<numero>` (ej. `01`, `02`). Para parciales puede ser el número o instancia (ej. `01`, `02`, `01-recuperatorio`). |
+| `<identificador>` | Número o texto breve que identifica unívocamente al hito dentro de su tipo. Para TPs y TIs debe coincidir con el `<numero>` (ej. `01`, `02`). Para parciales es el número de parcial con dos dígitos, opcionalmente seguido de `_recuperatorio` (ej. `01`, `02`, `01_recuperatorio`). |
 
 ## Link al Repositorio
 
